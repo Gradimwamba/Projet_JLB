@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body{
+            background:#f8fafc;
+        }
+
+        .service-card{
+            transition:.4s;
+        }
+
+        .service-card:hover{
+            transform:translateY(-10px);
+            box-shadow:0 20px 40px rgba(0,0,0,.15);
+        }
+
+        .service-card img{
+            height:220px;
+            object-fit:cover;
+        }
+
+        .section-title{
+            position:relative;
+            display:inline-block;
+        }
+
+        .section-title::after{
+            content:'';
+            width:70%;
+            height:5px;
+            background:#facc15;
+            position:absolute;
+            left:15%;
+            bottom:-10px;
+            border-radius:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="bg-blue-900 text-white py-6 shadow-lg">
+
+    <div class="container mx-auto px-6 flex items-center justify-between">
+
+        <!-- Logo -->
+        <div class="flex items-center space-x-3">
+            <img src="https://fnh.ma//uploads/actualites/6204e6c4bdab2_Transformation%20digitale.jpg" alt="Logo" class="w-16 h-16 object-contain">
+            <h1 class="text-2xl font-bold">Nom Entreprise</h1>
+        </div>
+
+    </div>
+
+</header>
+
+<!-- ================================================= -->
+<!-- Transformation Digitale -->
+<!-- ================================================= -->
+
+<section class="py-20 bg-white">
+
+<div class="container mx-auto px-6">
+
+<div class="text-center mb-16">
+
+<h1 class="text-4xl md:text-5xl font-bold text-blue-900 section-title">
+Transformation Digitale
+</h1>
+
+<p class="text-2xl text-yellow-500 font-semibold mt-8">
+Accélérez votre évolution numérique
+</p>
+
+</div>
+
+
+<div class="grid md:grid-cols-3 gap-10">
+
+<!-- Carte 1 -->
+
+<div class="bg-white rounded-xl overflow-hidden service-card">
+
+<img src="https://media.istockphoto.com/id/2185337504/fr/photo/automatisation-de-lentreprise-ou-technologie-rpa-des-processus-robotiques-transfert-de.jpg?s=612x612&w=0&k=20&c=FZ4QpsgMZQNvwwneOuOchP6JWOfetQwobywUSSyuDrw=" alt="Modernisation" class="w-full">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-bold text-blue-900 mb-3">
+Modernisation
+</h3>
+
+<p class="text-gray-600">
+Mise à jour et optimisation de vos processus internes pour une agilité accrue.
+</p>
+
+</div>
+
+</div>
+
+<!-- Carte 2 -->
+
+<div class="bg-white rounded-xl overflow-hidden service-card">
+
+<img src="https://asem.mx/wp-content/uploads/2025/08/Herramientas-tecnologicas-para-emprendedores.png" alt="Optimisation" class="w-full">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-bold text-blue-900 mb-3">
+Technologies de pointe
+</h3>
+
+<p class="text-gray-600">
+Intégration des dernières innovations technologiques adaptées à vos besoins.
+</p>
+
+</div>
+
+</div>
+
+<!-- Carte 3 -->
+
+<div class="bg-white rounded-xl overflow-hidden service-card">
+
+<img src="https://www.ifri.org/sites/default/files/2024-01/technological-innovation.png" alt="Innovation" class="w-full">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-bold text-blue-900 mb-3">
+    Efficacité opérationnelle
+</h3>
+
+<p class="text-gray-600">
+Amélioration de la performance globale et réduction des coûts de fonctionnement.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================================================= -->
+<!-- Logistique -->
+<!-- ================================================= -->
+
+<section class="py-20 bg-blue-50">
+
+<div class="container mx-auto px-6">
+
+<div class="text-center mb-16">
+
+<h1 class="text-4xl md:text-5xl font-bold text-blue-900 section-title">
+Logistique et Distribution
+</h1>
+
+<p class="text-2xl text-yellow-500 font-semibold mt-8">
+Fiabilité et rapidité au cœur de vos flux
+</p>
+
+</div>
+
+
+<div class="grid md:grid-cols-3 gap-10">
+
+<div class="bg-white rounded-xl overflow-hidden service-card">
+
+<img src="https://www.aslog-cs.com/wp-content/uploads/2023/02/3PL-logistique-de-transport-1080x675-1.jpg" alt="Chaîne d'approvisionnement" class="w-full">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-bold text-blue-900 mb-3">
+Chaîne d'approvisionnement
+</h3>
+
+<p class="text-gray-600">
+Gestion intégrée de vos ux pour une réactivité maximale face aux demandes du marché.
+</p>
+
+</div>
+
+</div>
+
+<div class="bg-white rounded-xl overflow-hidden service-card">
+
+<img src="https://cdn.prod.website-files.com/6193d546dfb64eec20323f4a/6723a4012c176d72c44a13b7_Entreposage%20VS%20Stockage-2.png" alt="Entreposage" class="w-full">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-bold text-blue-900 mb-3">
+Entreposage
+</h3>
+
+<p class="text-gray-600">
+Solutions de stockage sécurisées et organisées pour une gestion d'inventaire optimale.
+</p>
+
+</div>
+
+</div>
+
+<div class="bg-white rounded-xl overflow-hidden service-card">
+
+<img src="https://coursierma.ma/wp-content/uploads/2024/08/kurerskaja-dostavka-dlja-internet-magazinov-scaled-1-1024x684.jpg" alt="Livraison finale" class="w-full">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-bold text-blue-900 mb-3">
+Livraison finale
+</h3>
+
+<p class="text-gray-600">
+Distribution e cace garantissant le respect des délais et l'intégrité de vos produits.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================================================= -->
+<!-- Nettoyage -->
+<!-- ================================================= -->
+
+<section class="py-20 bg-white">
+
+<div class="container mx-auto px-6">
+
+<div class="text-center mb-16">
+
+<h1 class="text-4xl md:text-5xl font-bold text-blue-900 section-title">
+Nettoyage Industriel
+</h1>
+
+<p class="text-2xl text-yellow-500 font-semibold mt-8">
+Hygiène et Professionnalisme
+</p>
+
+</div>
+
+
+<div class="grid md:grid-cols-3 gap-10">
+
+<div class="bg-white rounded-xl overflow-hidden service-card">
+
+<img src="https://www.envirourgence.com/media/original/675c49b24f8a7-entreprise-nettoyage-industriel.jpeg" alt="Entretien complexe" class="w-full">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-bold text-blue-900 mb-3">
+Entretien complexe
+</h3>
+
+<p class="text-gray-600">
+Maintenance rigoureuse des installations industrielles et commerciales les plus exigeantes.
+</p>
+
+</div>
+
+</div>
+
+<div class="bg-white rounded-xl overflow-hidden service-card">
+
+<img src="https://www.usinenouvelle.com/expo/medias/7/1/7/016257717_guide_achat_paysage.jpg" alt="Équipement" class="w-full">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-bold text-blue-900 mb-3">
+Équipement de pointe
+</h3>
+
+<p class="text-gray-600">
+Utilisation de technologies de nettoyage avancées pour une e cacité et une précision optimales.
+</p>
+
+</div>
+
+</div>
+
+<div class="bg-white rounded-xl overflow-hidden service-card">
+
+<img src="https://www.filfafrance.fr/img/cms/images%20Webp/Filfa%20France%20-%20Aspirateur.webp" alt="Normes écologiques" class="w-full">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-bold text-blue-900 mb-3">
+Normes écologiques
+</h3>
+
+<p class="text-gray-600">
+Engagement strict envers le respect de l'environnement et l'utilisation de produits certifiés.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- Footer -->
+
+<footer class="bg-blue-900 text-white text-center py-8">
+
+<p class="text-lg">
+© 2026 Nom Entreprise — Tous droits réservés.
+</p>
+
+</footer>
+
+</body>
+</html>
